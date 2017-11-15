@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+group 'rs.in.staleksit'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.3'
+}
